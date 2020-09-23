@@ -1,1 +1,31 @@
-<p>main works!</p>
+<h2 style="width: 100%;text-align: center;">Cadastrar Novo Produto</h2>
+<form style="width: 50%;margin-left: 25%;" #form="ngForm" (ngSubmit)="onSubmit(form)">
+  <div class="form-group">
+    <label for="formGroupExampleInput">Produto</label>
+    <input [readOnly]="formSubmit" type="text" #name="ngModel" [(ngModel)]="novoProduto.name" class="form-control" [class.is-invalid]="!name.valid && name.touched" id="formGroupExampleInput" placeholder="Notebook Dell Inspiron i14-7460-A10S" name="Produto" required>
+    <div *ngIf="!name.valid && name.touched">
+      <div class="alert alert-danger" role="alert">
+        Nome do Produto é obrigatório!
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput2">Valor(R$)</label>
+    <input [readOnly]="formSubmit" type="number" #price="ngModel" [(ngModel)]="novoProduto.price" class="form-control" [class.is-invalid]="!price.valid && price.touched" id="formGroupExampleInput2" placeholder="1000" name="Valor" required>
+  </div>
+  <div *ngIf="!price.valid && price.touched">
+    <div class="alert alert-danger" role="alert">
+      Valor do Produto é obrigatório!
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput2">SKU</label>
+    <input [readOnly]="formSubmit" type="text" #sku="ngModel" [(ngModel)]="novoProduto.sku" class="form-control" [class.is-invalid]="!sku.valid && sku.touched" id="formGroupExampleInput2" name="Sku" required>
+  </div>
+  <div *ngIf="!sku.valid && sku.touched">
+    <div class="alert alert-danger" role="alert">
+      Sku do Produto é obrigatório!
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary" [disabled]="!form.valid">Enviar</button>
+</form>
