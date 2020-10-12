@@ -25,9 +25,22 @@ def search_cep():
     conteudo = json.loads(response.content)
     cep = conteudo[0]['cep']
     messagebox.showinfo('CEP',cep)
+def search_endereco():
+    cep = '58600000'
+    response = requests.get(f"https://viacep.com.br/ws/{cep}/json/")
+    conteudo = json.loads(response.content)
+    if conteudo['bairro']:
+        endereco = conteudo['bairro'] +' / ' + conteudo['localidade']+' / ' + conteudo['uf']
+    else:
+        endereco = conteudo['localidade'] +' / ' + conteudo['uf']
+    messagebox.showinfo('Endereço', endereco)
+#----- Pagina 1 -----#
+btn1 = Button(cep,text='Buscar CEP',command=search_cep)
+btn1.grid(column = 2, row=1)
 
-btn = Button(cep,text='Buscar CEP',command=search_cep)
-btn.grid(column = 2, row=1)
+#----- Pagina 2 -----#
+btn2 = Button(endereco, text='Buscar Endereço',command=search_endereco)
+btn2.grid(column = 2, row = 1)
 
 window.maxsize(width = 500, height=500)
 window.minsize(width = 500, height=500)
