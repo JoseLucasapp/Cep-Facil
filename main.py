@@ -16,11 +16,15 @@ def onlyInt(value):
     else:
         return False
 validate = window.register(func=onlyInt)
-
-labelquestion1 = Label(window,text='Insira o cep aqui')
-labelquestion1.place(x=200,y=5)
-cep = Entry(window,width=20, bg='gray', validate='key', validatecommand=(validate, '%P'))
-cep.place(x=190,y=35)
+#-Label's-#
+labelquestion1 = Label(window,text='Insira o cep aqui',font="Verdana 12 bold italic")
+labelquestion1.place(x=190,y=5)
+#-Entry's-#
+cep = Entry(window,width=20, bg='gray',font="Verdana 12 bold italic", validate='key', validatecommand=(validate, '%P'))
+cep.place(x=157,y=35)
+#-Button-#
+button = Button(window,text='Buscar CEP', font="Verdana 14 bold italic", bg='green', fg='white')
+button.place(x=195,y=65)
 
 window.maxsize(width = 500, height=500)
 window.minsize(width = 500, height=500)
