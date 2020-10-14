@@ -46,15 +46,15 @@ campo_bairro = Entry(cep)
 btn_cep = Button(cep,text='Buscar CEP',command=search_cep)
 
 #-----Posicionando------#
-label_bairro.place()
-label_cidade.place()
-label_uf.place()
+label_uf.place(x=215,y=10)
+label_cidade.place(x=215,y=70)
+label_bairro.place(x=215,y=130)
 
-campo_uf.place()
-campo_cidade.place()
-campo_bairro.place()
+campo_uf.place(x=200,y=30)
+campo_cidade.place(x=200,y=90)
+campo_bairro.place(x=200,y=150)
 
-btn_cep.place(x=0,y=0)
+btn_cep.place(x=225,y=200)
 
 #----- Pagina 2 -----#
 label_cep = Label(endereco,text='Informe o CEP')
@@ -63,11 +63,11 @@ campo_endereco = Entry(endereco)
 btn_endereco = Button(endereco, text='Buscar Endereço',command=search_endereco)
 
 #-----Posicionando------#
-label_cep.place()
+label_cep.place(x=220,y=10)
 
-campo_endereco.place()
+campo_endereco.place(x=200,y=40)
 
-btn_endereco.place()
+btn_endereco.place(x=210,y=80)
 
 #-------------------------------------#
 
