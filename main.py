@@ -18,9 +18,9 @@ tab_control.pack(expand = 1, fill='both')
 #-------------------------------------#
 
 def search_cep():
-    uf = 'PB'
-    cidade = 'Santa Luzia'
-    bairro = 'Frei Damião'
+    uf = campo_uf.get()
+    cidade = campo_cidade.get()
+    bairro = campo_bairro.get()
     response = requests.get(f"https://viacep.com.br/ws/{uf}/{cidade}/{bairro}/json/")
     conteudo = json.loads(response.content)
     cep = 'Cep: ' + conteudo[0]['cep']
@@ -34,11 +34,23 @@ def search_endereco():
     else:
         endereco = conteudo['localidade'] +' / ' + conteudo['uf']
     messagebox.showinfo('Endereço', endereco)
+def limitarSigla(uf):
+    if len(uf)> 2:
+        return False
+    else:
+        return True
+def limitarCEP(cep):
+    if len(cep) > 8:
+        return False
+    else:
+        return True
 #-------------------------------------#
+validaruf = window.register(func=limitarSigla)
+validarcep = window.register(func=limitarCEP)
 
 #----- Pagina 1 -----#
 label_uf = Label(cep,text='Informe o Estado')
-campo_uf = Entry(cep)
+campo_uf = Entry(cep, validate='key', validatecommand=(validaruf,'%P'))
 label_cidade = Label(cep, text='Informe a Cidade')
 campo_cidade = Entry(cep)
 label_bairro = Label(cep,text='Informe o Bairro')
@@ -58,14 +70,14 @@ btn_cep.place(x=225,y=200)
 
 #----- Pagina 2 -----#
 label_cep = Label(endereco,text='Informe o CEP')
-campo_endereco = Entry(endereco)
+campo_cep = Entry(endereco, validate='key', validatecommand=(validarcep,'%P'))
 
 btn_endereco = Button(endereco, text='Buscar Endereço',command=search_endereco)
 
 #-----Posicionando------#
 label_cep.place(x=220,y=10)
 
-campo_endereco.place(x=200,y=40)
+campo_cep.place(x=200,y=40)
 
 btn_endereco.place(x=210,y=80)
 
