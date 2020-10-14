@@ -1,5 +1,15 @@
 <h1>Buscar Cep ou Endereço</h1>
 
+<h3>Used Tools</h3>
+<table>
+  <tr>
+    <td><b>Python</b></td>
+    <td>Json</td>
+    <td>Requests</td>
+    <td>Tkinter</td>
+  </tr>
+</table>
+
 <h2>Buscar Cep</h2>
 <p>Você pode buscar o cep informando o Endereço.</p>
 <img src='imagem1.png' />
