@@ -3,6 +3,8 @@ from tkinter import *
 from tkinter import messagebox
 from tkinter import ttk
 
+#-------------------------------------#
+
 window = Tk()
 window.title('Buscar CEP')
 
@@ -12,6 +14,8 @@ endereco = ttk.Frame(tab_control)
 tab_control.add(cep,text = 'Buscar CEP')
 tab_control.add(endereco,text = 'Buscar Endereço')
 tab_control.pack(expand = 1, fill='both')
+
+#-------------------------------------#
 
 def search_cep():
     uf = 'PB'
@@ -30,16 +34,42 @@ def search_endereco():
     else:
         endereco = conteudo['localidade'] +' / ' + conteudo['uf']
     messagebox.showinfo('Endereço', endereco)
-#----- Pagina 1 -----#
+#-------------------------------------#
 
-btn1 = Button(cep,text='Buscar CEP',command=search_cep)
-btn1.place(x=0,y=0)
+#----- Pagina 1 -----#
+label_uf = Label(cep,text='Informe o Estado')
+campo_uf = Entry(cep)
+label_cidade = Label(cep, text='Informe a Cidade')
+campo_cidade = Entry(cep)
+label_bairro = Label(cep,text='Informe o Bairro')
+campo_bairro = Entry(cep)
+btn_cep = Button(cep,text='Buscar CEP',command=search_cep)
+
+#-----Posicionando------#
+label_bairro.place()
+label_cidade.place()
+label_uf.place()
+
+campo_uf.place()
+campo_cidade.place()
+campo_bairro.place()
+
+btn_cep.place(x=0,y=0)
 
 #----- Pagina 2 -----#
-campo_cep = Entry(endereco)
-campo_cep.place(x=200,y=10)
-btn2 = Button(endereco, text='Buscar Endereço',command=search_endereco)
-btn2.place(x=200,y=100)
+label_cep = Label(endereco,text='Informe o CEP')
+campo_endereco = Entry(endereco)
+
+btn_endereco = Button(endereco, text='Buscar Endereço',command=search_endereco)
+
+#-----Posicionando------#
+label_cep.place()
+
+campo_endereco.place()
+
+btn_endereco.place()
+
+#-------------------------------------#
 
 window.maxsize(width = 500, height=500)
 window.minsize(width = 500, height=500)
