@@ -84,10 +84,12 @@ label_cep.place(x=220,y=10)
 campo_cep.place(x=200,y=40)
 
 btn_endereco.place(x=210,y=80)
-button = Button(endereco, text="Abrir URL", cursor="hand2")
-button.place(x=300,y=120)
-button.bind("<Button>",lambda e: acessarSites('https://pt.stackoverflow.com/questions/348620/abrindo-uma-url-a-partir-do-tkinter'))
 #-------------------------------------#
+versao = Label(window, text='V 1.0')
+versao.place(x=190,y=420)
+link = Label(window, text="Acesse no Github", cursor="hand2", fg="blue")
+link.place(x=240,y=420)
+link.bind("<Button>",lambda e: acessarSites('https://github.com/JoseLucasapp/Busca-por-cep'))
 
 window.maxsize(width = 500, height=500)
 window.minsize(width = 500, height=500)
