@@ -59,7 +59,7 @@ label_cidade = Label(cep, text='Informe a Cidade')
 campo_cidade = Entry(cep)
 label_bairro = Label(cep,text='Informe o Bairro')
 campo_bairro = Entry(cep)
-btn_cep = Button(cep,text='Buscar CEP')
+btn_cep = Button(cep,text='Buscar CEP', command = search_cep)
 
 #-----Posicionando------#
 label_uf.place(x=215,y=10)
