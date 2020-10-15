@@ -2,6 +2,7 @@ import json, requests
 from tkinter import *
 from tkinter import messagebox
 from tkinter import ttk
+import webbrowser
 
 #-------------------------------------#
 
@@ -44,6 +45,9 @@ def limitarCEP(cep):
         return False
     else:
         return True
+def acessarSites(site):
+    webbrowser.open_new(site)
+
 #-------------------------------------#
 validaruf = window.register(func=limitarSigla)
 validarcep = window.register(func=limitarCEP)
@@ -55,7 +59,7 @@ label_cidade = Label(cep, text='Informe a Cidade')
 campo_cidade = Entry(cep)
 label_bairro = Label(cep,text='Informe o Bairro')
 campo_bairro = Entry(cep)
-btn_cep = Button(cep,text='Buscar CEP',command=search_cep)
+btn_cep = Button(cep,text='Buscar CEP')
 
 #-----Posicionando------#
 label_uf.place(x=215,y=10)
@@ -80,7 +84,9 @@ label_cep.place(x=220,y=10)
 campo_cep.place(x=200,y=40)
 
 btn_endereco.place(x=210,y=80)
-
+button = Button(endereco, text="Abrir URL", cursor="hand2")
+button.place(x=300,y=120)
+button.bind("<Button>",lambda e: acessarSites('https://pt.stackoverflow.com/questions/348620/abrindo-uma-url-a-partir-do-tkinter'))
 #-------------------------------------#
 
 window.maxsize(width = 500, height=500)
