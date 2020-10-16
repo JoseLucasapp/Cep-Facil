@@ -1,7 +1,8 @@
 <h1>Buscar Cep ou Endereço</h1>
 
 <h3>Quando este programa é util?</h3>
-<p>Este Programa é util quando o usuário precisa informar o seu cep porém não sabe,<br> então o usuário informa o seu estado, sua cidade e/ou seu bairro</p>
+<p>Este Programa é util quando o usuário precisa informar o seu CEP porém não sabe,<br> então o usuário informa o seu estado, sua cidade e/ou seu bairro e recebe o seu CEP</p>
+<p>O programa também serve de forma contraria, onde o usuário informa o CEP e recebe o endereço</p>
 
 <h3>Ferramentas Utilizadas</h3>
 <table>
