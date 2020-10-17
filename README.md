@@ -2,8 +2,12 @@
 <p align='center'>
   
   # Sumário
-  
+ 
+  - [Quando este programa é util?](#quando-este-programa-é-util?)
   - [Ferramentas Utilizadas](#ferramentas-utilizadas)
+  - [Como Buscar Cep](#como-buscar-cep)
+  - [Como Buscar Endereço](#como-buscar-endereço)
+  - [Informações](#informações)
   
   # Quando este programa é util?
   <p>Este Programa é util quando o usuário precisa informar o seu CEP porém não sabe,<br> então o usuário informa o seu estado, sua cidade e/ou seu bairro e recebe o seu CEP</p>
@@ -19,11 +23,11 @@
     </tr>
   </table>
 
-  # Buscar Cep
+  # Como Buscar Cep
   <p>Você pode buscar o cep informando o Endereço.</p>
   <img src='imagem1.png' />
 
-  # Buscar Endereço
+  # Como Buscar Endereço
   <p>Você pode buscar o Endereço informando o Cep.</p>
   <img src='imagem2.png' />
 
