@@ -3,13 +3,14 @@
   
   # Sumário
  
-  - [Quando este programa é util?](#quando-este-programa-é-util?)
+  - [Quando este programa é util?](#quando-este-programa-é-util-?)
   - [Ferramentas Utilizadas](#ferramentas-utilizadas)
   - [Como Buscar Cep](#como-buscar-cep)
   - [Como Buscar Endereço](#como-buscar-endereço)
   - [Informações](#informações)
+  - [Autor](#autor)
   
-  # Quando este programa é util?
+  # Quando este programa é util ?
   <p>Este Programa é util quando o usuário precisa informar o seu CEP porém não sabe,<br> então o usuário informa o seu estado, sua cidade e/ou seu bairro e recebe o seu CEP</p>
   <p>O programa também serve de forma contraria, onde o usuário informa o CEP e recebe o endereço</p>
 
@@ -34,6 +35,6 @@
   # Informações
   <p><b>Arquivo Executável disponivel na pasta dist<b></p>
 
-  # Author
+  # Autor
   <h3><a href='https://www.instagram.com/jlucasgf/?hl=pt-br'>José Lucas</a></h3>
 </p>
