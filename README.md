@@ -1,6 +1,6 @@
 <h1 align='center'>Buscar Cep ou Endereço</h1>
 <p align='center'>
-  <a href="https://a.paddle.com/v2/click/16413/119403?link=1227">
+  <a href="https://www.python.org/">
     <img src="https://img.shields.io/badge/Desenvolvido%20com-Python-gray.svg?colorA=232AF0&colorB=E6DF19&style=for-the-badge"/>
   </a>
 </p>
