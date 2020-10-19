@@ -31,11 +31,11 @@
 
   # How to search zip ?
   <p>You can search for the zip code by entering the Address.</p>
-  <img src='imagem1.png' />
+  <img src='../imagem1.png' />
 
   # How to search address ?
   <p>You can find the address by informing the zip code.</p>
-  <img src='imagem2.png' />
+  <img src='../imagem2.png' />
 
   # Info
   <p><b>Executable file available in the dist folder<b></p>
