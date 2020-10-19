@@ -4,10 +4,22 @@
     <img src="https://img.shields.io/badge/Desenvolvido%20com-Python-gray.svg?colorA=232AF0&colorB=E6DF19&style=for-the-badge"/>
   </a>
 </p>
+
+<p align='center'>
+  <a href="https://requests.readthedocs.io/en/master/">
+    <img src="https://img.shields.io/badge/Biblioteca-Requests-gray.svg?colorA=E6DF19&colorB=232AF0&style=for-the-badge"/>
+  </a>
+  <a href="https://docs.python.org/3/library/tkinter.html">
+    <img src="https://img.shields.io/badge/Biblioteca-Tkinter-gray.svg?colorA=E6DF19&colorB=232AF0&style=for-the-badge"/>
+  </a>
+</p>
+<p align='center'>
+  <a href='./docs/README.md'>In english</a>
+</p>
 <p align='center'>
   
   # Sumário
- 
+  
   - [Quando este programa é util?](#quando-este-programa-é-util-?)
   - [Ferramentas Utilizadas](#ferramentas-utilizadas)
   - [Como Buscar Cep](#como-buscar-cep)
