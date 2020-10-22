@@ -29,7 +29,9 @@
   
   # Características
   
-  - [x]
+  - [x] Possui busca por cep via endereço.
+  - [x] Possui busca por endereço via cep.
+  - [x] Os resultados da busca são mostrados em uma caixa de mensagem.
   
   # Quando este programa é util ?
   <p>Este Programa é util quando o usuário precisa informar o seu CEP porém não sabe,<br> então o usuário informa o seu estado, sua cidade e/ou seu bairro e recebe o seu CEP</p>
