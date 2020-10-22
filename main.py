@@ -7,7 +7,7 @@ import webbrowser
 #-------------------------------------#
 
 window = Tk()
-window.title('Buscar CEP')
+window.title('Cep Fácil')
 
 tab_control = ttk.Notebook(window)
 cep = ttk.Frame(tab_control)
