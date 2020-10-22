@@ -4,7 +4,6 @@
     <img src="https://img.shields.io/badge/Developed%20with-Python-gray.svg?colorA=232AF0&colorB=E6DF19&style=for-the-badge"/>
   </a>
 </p>
-<hr height = 2>
 <p align='center'>
   <a href="https://requests.readthedocs.io/en/master/">
     <img src="https://img.shields.io/badge/Library-Requests-gray.svg?colorA=E6DF19&colorB=232AF0&style=for-the-badge"/>
