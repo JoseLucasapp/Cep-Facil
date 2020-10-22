@@ -13,8 +13,7 @@
     <img src="https://img.shields.io/badge/Library-Tkinter-gray.svg?colorA=E6DF19&colorB=232AF0&style=for-the-badge"/>
   </a>
 </p>
-<hr size = 1>
-<p align='center'>
+## <p align='center'>
   <a href="../LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-black.svg?colorA=848484&colorB=FFFF00&style=for-the-badge"/>
   </a>
