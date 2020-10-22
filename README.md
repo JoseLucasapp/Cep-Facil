@@ -20,6 +20,7 @@
   
   # Sumário
   
+  - [Características](#características)
   - [Quando este programa é util?](#quando-este-programa-é-util-?)
   - [Ferramentas Utilizadas](#ferramentas-utilizadas)
   - [Como Buscar Cep](#como-buscar-cep)
