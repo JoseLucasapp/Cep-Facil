@@ -13,15 +13,27 @@
   </a>
 </p>
 <p align='center'>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-black.svg?colorA=848484&colorB=FFFF00&style=for-the-badge"/>
+  </a>
+</p>
+<p align='center'>
   
-  # Features
+  # Summary
  
+  - [Features](#features)
   - [When is this program useful?](#when-is-this-program-useful-?)
   - [Used tools](#used-tools)
   - [How to search zip?](#how-to-search-zip-?)
   - [how to search address?](#how-to-search-address-?)
   - [Info](#info)
   - [Author](#author)
+  
+  # Features
+  
+  - [x] Has zip search via address.
+  - [x] Has address search via zip code.
+  - [x] The search results are shown in a message box.
   
   # When is this program useful ?
   <p>This program is useful when the user needs to enter their zip code but does not know,<br> then the user informs his state, his city and / or his neighborhood and receives his zip code</p>
