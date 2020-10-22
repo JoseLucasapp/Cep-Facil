@@ -1,4 +1,4 @@
-<ig src='cepfacil.png' />
+<img src='cepfacil.png' />
 <h1 align='center'>Buscar Cep ou Endereço</h1>
 <p align='center'>
   <a href="https://www.python.org/">
