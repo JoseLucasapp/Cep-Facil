@@ -14,7 +14,7 @@
   </a>
 </p>
 <p align='center'>
-  <a href="https://docs.python.org/3/library/tkinter.html">
+  <a href="LICENSE">
     <img src="https://img.shields.io/badge/Licença-MIT-black.svg?colorA=848484&colorB=FFFF00&style=for-the-badge"/>
   </a>
 </p>
