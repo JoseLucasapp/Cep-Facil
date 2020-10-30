@@ -44,7 +44,15 @@ def limitarCEP(cep):
     if len(cep) > 8:
         return False
     else:
+        if(cep.isdigit()):
+            return True
+        else:
+            return False
         return True
+    if int(cep) == True:
+        print('ok')
+    else:
+        print('not')
 def acessarSites(site):
     webbrowser.open_new(site)
 
