@@ -14,6 +14,9 @@
   <a href="https://docs.python.org/3/library/tkinter.html">
     <img src="https://img.shields.io/badge/Library-Tkinter-gray.svg?colorA=E6DF19&colorB=232AF0&style=for-the-badge"/>
   </a>
+  <a href="https://www.pyinstaller.org/">
+    <img src="https://img.shields.io/badge/PyInstaller-gray.svg?colorA=E6DF19&colorB=232AF0&style=for-the-badge"/>
+  </a>
 </p>
 <p align='center'>
   <a href="../LICENSE">
