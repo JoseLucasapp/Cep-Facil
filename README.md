@@ -72,6 +72,6 @@
       <a href="https://www.instagram.com/jlucasgf/?hl=pt-br">
         <img style="border-radius: 50%;" src="./transferir.png" width="100px;" alt=""/>
       <br />
-      <p>José Lucas</p>
+      <span>José Lucas</span>
   </p>
 </p>
