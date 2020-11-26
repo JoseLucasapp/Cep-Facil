@@ -68,5 +68,9 @@
   <img src='imagem2.png' />
 
   # Autor
-  <h3><a href='https://www.instagram.com/jlucasgf/?hl=pt-br'>José Lucas</a></h3>
+  <a href="https://www.instagram.com/jlucasgf/?hl=pt-br">
+    <img style="border-radius: 50%;" src="./transferir.png" width="100px;" alt=""/>
+    <br />
+  
+  <h3>José Lucas</h3>
 </p>
