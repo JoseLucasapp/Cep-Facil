@@ -70,7 +70,7 @@
   # Autor
   <p align='center'>
       <a href="https://www.instagram.com/jlucasgf/?hl=pt-br">
-        <img style="border-radius: 50%;" src="./transferir.png" width="100px;" alt=""/>
+        <img style="border-radius: 50px;" src="./transferir.png" width="100px;" alt=""/>
       <br />
       <span>José Lucas</span>
   </p>
