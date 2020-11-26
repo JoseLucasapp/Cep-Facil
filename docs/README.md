@@ -67,5 +67,10 @@
   <p><b>Executable file available in the dist folder<b></p>
 
   # Author
-  <h3><a href='https://www.instagram.com/jlucasgf/?hl=pt-br'>José Lucas</a></h3>
+  <p align='center'>
+      <a href="https://www.instagram.com/jlucasgf/?hl=pt-br">
+        <img style="border-radius: 50px;" src="../transferir.png" width="100px;" alt=""/>
+      <br />
+      <span>José Lucas</span>
+  </p>
 </p>
