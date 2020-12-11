@@ -49,10 +49,6 @@ def limitarCEP(cep):
         else:
             return False
         return True
-    if int(cep) == True:
-        print('ok')
-    else:
-        print('not')
 def acessarSites(site):
     webbrowser.open_new(site)
 
